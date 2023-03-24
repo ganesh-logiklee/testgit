@@ -1,0 +1,40 @@
+{
+    "metaInfo": {
+      "dataIndex": "config",
+      "collectionName": "configObjects",
+      "responseObjectName": "response"
+    },
+    "configObjects": [
+      {
+            "id": "rock-entity-search-discovery_referencedata_rpbrands_uiConfig",
+            "name": "rock-entity-search-discovery_referencedata_rpbrands",
+            "type": "uiConfig",
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "_DEFAULT",
+                            "channel": "_DEFAULT",
+                            "component": "rock-entity-search-discovery",
+                            "country": "_DEFAULT",
+                            "domain": "referenceData",
+                            "entityType": "rpbrands",
+                            "relationship": "_DEFAULT",
+                            "role": "admin",
+                            "tenant": "_DEFAULT",
+                            "user": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "componentsVisibility": {
+                                    "rock-business-actions": false,
+                                    "rock-entity-quick-manage": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+          }
+        ]
+     }
