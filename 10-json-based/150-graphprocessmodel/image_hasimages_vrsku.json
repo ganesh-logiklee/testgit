@@ -1,0 +1,59 @@
+{
+    "metaInfo": {
+      "dataIndex": "entityModel",
+      "collectionName": "entityModels",
+      "responseObjectName": "response"
+    },
+    "entityModels": [
+      {
+        "id": "image_hasimages_vrsku_graphProcessModel",
+        "name": "image_hasimages_vrsku",
+        "type": "graphProcessModel",
+        "domain": "generic",
+        "properties": {
+            "defaultValueSource": "_DEFAULT",
+            "defaultValueLocale": "_DEFAULT",
+            "graphProcessPath": "image_hasimages_vrsku",
+            "matchRules": [
+                {
+                    "seq": 1,
+                    "matchType": "attributeBased",
+                    "attributeMaps": [
+                        {
+                            "vrmdmid": "vrtech_mdmid"
+                        } 
+                    ],
+                    "noMatchResult": [
+                        {
+                            "actions": [
+                                {
+                                    "actionName": "DoNothing"
+                                }
+                            ]
+                        }
+                    ],
+                    "singleMatchResult": [
+                        {
+                            "actions": [
+                                {
+                                    "actionName": "AddSourceRelationship"
+                                }
+                            ]
+                        }
+                    ],
+                    "multiMatchResult": [
+                        {
+                            "actions": [
+                                {
+                                    "actionName": "DoNothing"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "data": {}
+        }
+    }
+    ]
+  }

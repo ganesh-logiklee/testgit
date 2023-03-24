@@ -1,0 +1,52 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_thing_vrsku_admin_uiConfig",
+      "name": "rock-entity-search-result_thing_vrsku_admin",
+      "type": "uiConfig",
+      "properties": {},
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-search-result",
+              "app": "_DEFAULT",
+              "domain": "thing",
+              "entityType": "vrsku",
+              "relationship": "_DEFAULT",
+              "role": "admin"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "viewConfig": {
+                    "tile": {
+                      "settings": {
+                        "subTitlePattern": "{vrmdmid} | {vrmdmname} | {vrlistprice} | {vrisactive}",
+                        "actions": {
+                          "delete": {
+                            "visible": false,
+                            "name": "delete",
+                            "icon": "pebble-icon:delete",
+                            "eventName": "delete-item"
+                          }
+                        }
+                      },
+                      "fieldChanges": {}
+                    }
+                  },
+                  "viewMode": "Tile"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

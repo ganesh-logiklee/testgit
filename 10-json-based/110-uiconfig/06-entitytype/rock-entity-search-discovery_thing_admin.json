@@ -1,0 +1,45 @@
+{
+    "metaInfo": {
+      "dataIndex": "config",
+      "collectionName": "configObjects",
+      "responseObjectName": "response"
+    },
+    "configObjects": [{
+    "id": "rock-entity-search-discovery_thing_admin_uiConfig",
+    "name": "rock-entity-search-discovery_thing_admin",
+    "type": "uiConfig",
+    "properties": {
+    },
+    "data": {
+      "contexts": [
+        {
+          "context": {
+            "app": "_DEFAULT",
+            "channel": "_DEFAULT",
+            "component": "rock-entity-search-discovery",
+            "country": "_DEFAULT",
+            "domain": "thing",
+            "entityType": "_DEFAULT",
+            "relationship": "_DEFAULT",
+            "role": "admin",
+            "tenant": "_DEFAULT",
+            "user": "_DEFAULT"
+          },
+          "jsonData": {
+            "config": {
+              "componentsVisibility": {
+                "rock-query-builder": true,
+                "rock-search-bar": true,
+                "pebble-add-new": true,
+                "rock-entity-type-model-lov": true,
+                "rock-business-actions": true,
+                "rock-entity-quick-manage": true,
+                "rock-entity-search-result": true,
+                "rock-entity-search-filter": true
+              }
+            }
+          }
+        }
+      ]
+    }
+  }]}

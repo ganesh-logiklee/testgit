@@ -1,0 +1,51 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-relationship-search-result_thing_vrischildof_admin_uiConfig",
+      "name": "rock-entity-relationship-search-result_thing_vrischildof_admin",
+      "type": "uiConfig",
+      "properties": {},
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-relationship-search-result",
+              "relationship": "vrischildof",
+              "role": "admin"
+            },
+            "jsonData": {
+              "config": {
+                "upDirectionConfig": {
+                  "gridConfig": {
+                    "itemConfig":{
+                      "fields": {
+                        "typeExternalName": { "visible": false },
+                        "id": { "visible": true },
+                        "vrmdmname": { "visible": true },
+                        "vrmdmid": { "visible": true }
+                      }
+                    }
+                  }
+                },
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": { "id": { "visible": true },
+                    "vrmdmname": { "visible": true },
+                    "vrmdmid": { "visible": true } }
+                  },
+                  "viewConfig": { "list": { "visible": false } }
+                },
+                "businessActions": { "basic": {} }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
