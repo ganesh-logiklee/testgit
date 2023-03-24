@@ -1,0 +1,45 @@
+{
+    "metaInfo": {
+      "dataIndex": "config",
+      "collectionName": "configObjects",
+      "responseObjectName": "response"
+    },
+    "configObjects": [
+      {
+        "id": "rock-entity-sidebar_vrsku_uiConfig",
+        "name": "rock-entity-sidebar_vrsku",
+        "type": "uiConfig",
+        "properties": {},
+        "data": {
+          "contexts": [
+            {
+              "context": {
+                "component": "rock-entity-sidebar",
+                "app": "_DEFAULT",
+                "domain": "_DEFAULT",
+                "entityType": "vrsku",
+                "relationship": "_DEFAULT",
+                "role": "_DEFAULT"
+              },
+              "jsonData": {
+                "config": {
+                  "tabItems": {
+                    "recentActivity": {
+                      "selected": true
+                    },
+                    "workflow": {
+                      "selected": false
+                    }
+                  },
+                  "maxAllowedTabs": 5,
+                  "scrollable": true,
+                  "fitContainer": false
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+  
