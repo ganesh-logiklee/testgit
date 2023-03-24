@@ -1,0 +1,54 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-graph_vrsku_uiConfig",
+      "name": "rock-entity-graph_vrsku",
+      "type": "uiConfig",
+      "properties": {},
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-graph",
+              "entityType": "vrsku"
+            },
+            "jsonData": {
+              "config": {
+                "entityGraphTreeConfig": {
+                  "relationships": [
+                    {
+                      "relationshipName": "vrischildof",
+                      "relationships": [
+                        {
+                          "relationshipName": "vrproductischildof",
+                          "treeNodeTitle": "attribute:vrmdmname"
+                        }
+                      ],
+                      "treeNodeTitle": "attribute:vrmdmname"
+                    },
+                    {
+                      "relationshipName": "vrcrosssell",
+                      "relationships": [
+                        {
+                          "relationshipName": "vrischildof",
+                          "treeNodeTitle": "attribute:vrmdmname"
+                        }
+                      ],
+                      "treeNodeTitle": "attribute:vrmdmname"
+                    }
+                  ],
+                  "treeNodeTitle": "attribute:vrmdmname"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

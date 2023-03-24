@@ -1,0 +1,55 @@
+{
+    "metaInfo": {
+      "dataIndex": "config",
+      "collectionName": "configObjects",
+      "responseObjectName": "response"
+    },
+    "configObjects": [
+      {
+        "id": "rock-business-actions_referenceData_admin_vr_uiConfig",
+        "name": "rock-business-actions_referenceData_admin_vr",
+        "type": "uiConfig",
+        "properties": {
+        },
+        "data": {
+          "contexts": [
+            {
+              "context": {
+                "component": "rock-business-actions",
+                "app": "_DEFAULT",
+                "domain": "referenceData",
+                "entityType": "_DEFAULT",
+                "relationship": "_DEFAULT",
+                "role": "admin"
+              },
+              "jsonData": {
+                "config": {
+                  "actionGroups": {
+                    "connectors": {
+                      "visible": false
+                  },
+                  "assignments": {
+                      "visible": false
+                  },
+                  "context": {
+                      "visible": false
+                  },
+                  "basic": {
+                      "visible": false
+                  },
+                  "transitions": {
+                      "visible": false
+                  },
+                  "uploads": {
+                      "visible": false
+                  }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+  
