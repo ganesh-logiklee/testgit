@@ -25,7 +25,8 @@
                             "config": {
                                 "properties": {
                                     "attributeNames": [
-                                        "nrbrand"
+                                        "nrbrand",
+                                        "nrcolor"
                                     ]
                                 }
                             }
