@@ -1,0 +1,59 @@
+{   
+    "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+    "id": "rock-entity-detail-tabs_referenceData_rpbrands_admin_uiConfig",
+    "name": "rock-entity-detail-tabs_referenceData_rpbrands_admin",
+    "type": "uiConfig",
+    "properties": {
+
+    },
+    "data": {
+        "contexts": [
+            {
+                "context": {
+                    "app": "_DEFAULT",
+                    "channel": "_DEFAULT",
+                    "component": "rock-entity-detail-tabs",
+                    "country": "_DEFAULT",
+                    "domain": "referenceData",
+                    "entityType": "rpbrands",
+                    "relationship": "_DEFAULT",
+                    "role": "admin",
+                    "tenant": "_DEFAULT",
+                    "user": "_DEFAULT"
+                },
+                "jsonData": {
+                    "config": {
+                        "tabItems": {
+                            "relationships": {
+                                "menuProviderComponent": {
+                                    "path": "../rock-relationship-split-screen/relationships-tab-menu-provider.js",
+                                    "name": "relationships-tab-menu-provider",
+                                    "properties": {
+                                        "domain": "referenceData"
+                                    }
+                                }
+                            },
+                            "assets": {
+                                "visible":true
+                            },
+                            "rock-relationship-network-viewer": {
+                                "visible": false
+                            },
+                            "graph": {
+                                "visible": true
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+   }
+ ]
+}
